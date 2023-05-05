@@ -1,0 +1,24 @@
+site_name: University CS Study Recruitment
+site_url: https://www.cs.university.country/~secretidentifier/recruitment
+nav:
+    - Welcome: index.md
+    - Participation: participation.md
+    - Administrative Information: administrative.md
+theme:
+  name: material
+  logo: assets/logo.png
+  palette:
+    scheme: university
+    accent: red
+extra_css:
+    - stylesheets/extra.css
+markdown_extensions:
+    - tables
+    - pymdownx.tabbed:
+        alternate_style: true 
+    - pymdownx.highlight:
+        anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.snippets
+    - pymdownx.superfences
+
